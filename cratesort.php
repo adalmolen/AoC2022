@@ -21,4 +21,5 @@ while (($line = fgets($moves)) !== false) {
 for($i=1; $i<=9; $i++){
     print_r($crate[$i][0]);
 }
+
 ?>
