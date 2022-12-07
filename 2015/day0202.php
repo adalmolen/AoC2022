@@ -13,5 +13,5 @@ while(($line = fgets($day02)) !== FALSE){
     $bow = $dimensions[0]*$dimensions[1]*$dimensions[2];
     $ribbon += $length+$bow;
 }
-echo $total." square feet paper<br>";
-echo $ribbon." feet ribbon<br>";
+echo $total." square feet paper\n";
+echo $ribbon." feet ribbon\n";

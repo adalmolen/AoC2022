@@ -10,7 +10,7 @@ $crate[8] = array("R","Z","M");
 $crate[9] = array("T","R","V","G","L","C","M");
 $temparray = array();
 //print_r($crate);
-//echo "<br><br>";
+//echo "\n\n";
 $moves = fopen("cratemoves.txt", "r");
 while (($line = fgets($moves)) !== false) {
     $move = explode(",", $line); // $move[0] = amount, $move[1] = from, $move[2] = destination

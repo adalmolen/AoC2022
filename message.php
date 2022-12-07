@@ -19,7 +19,7 @@ while($c < count($input)){
                 $found = 1;
                 break;
             }
-            echo "<br>";
+            echo "\n";
         }
         $j++;
         if ($j>13) $j-=14;

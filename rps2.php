@@ -42,17 +42,17 @@ while (($line = fgets($rps)) !== false) {
         }
     }
     if (($elf == "A" && $me == "X") || ($elf == "B" && $me=="Y") || ($elf[0] == "C" && $me=="Z")){ //on tie add 3
-        echo " Tie!<br>";
+        echo " Tie!\n";
         if ($me == "X") $score = $score+1+3;
         if ($me == "Y") $score = $score+2+3;
         if ($me == "Z") $score = $score+3+3;
     } elseif (($elf == "A" && $me == "Z") || ($elf == "B" && $me == "X") || ($elf == "C" && $me == "Y")) { //Me lose add 6
-        echo " Lose<br>";
+        echo " Lose\n";
         if ($me == "X") $score = $score+1;
         if ($me == "Y") $score = $score+2;
         if ($me == "Z") $score = $score+3;
     } else { //on Win
-        echo " Win<br>";
+        echo " Win\n";
         if ($me == "X") $score = $score+1+6;
         if ($me == "Y") $score = $score+2+6;
         if ($me == "Z") $score = $score+3+6;

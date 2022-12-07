@@ -8,7 +8,7 @@ foreach($chars as $char){
     if($char=="(") $floor+=1;
     if($char==")") $floor-=1;
     if($floor == -1){
-        echo "Santa hit basement on position: ".$position."<br>";
+        echo "Santa hit basement on position: ".$position."\n";
         break;
     } else {
         $position++;

@@ -51,15 +51,15 @@ foreach($folder as $dirname => $value){
         $total+=$value;
     }
 }
-echo $total."<br>";
+echo $total."\n";
 $used = $folder["/"];
-echo $used." Used space<br>";
+echo $used." Used space\n";
 $need = 30000000 - (70000000 - $used);
-echo $need." need<br>";
+echo $need." need\n";
 asort($folder);
 foreach($folder as $dirname => $value){
     if ($value>$need){
-        echo $dirname." - ".$value." found it!<br>";
+        echo $dirname." - ".$value." found it!\n";
         break;
     }
 }

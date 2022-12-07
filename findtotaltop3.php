@@ -24,7 +24,7 @@ if ($calories) {
     $i=0;
     foreach ($top3 as $key => $val) {
         $i++;
-        echo "elf $i has $val calories.<br>";
+        echo "elf $i has $val calories.\n";
         $totaltop3 = $totaltop3 + $val;
     }
 

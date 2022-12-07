@@ -18,6 +18,6 @@ while (($line = fgets($clean)) !== false) {
     } else {
         echo "NO! ";
     }
-    echo $pairs."<br>";
+    echo $pairs."\n";
 }
 echo $pairs;
